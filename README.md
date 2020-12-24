@@ -44,7 +44,8 @@ In order to run this project is important to set a python environment, you can f
 
 - [agent](https://github.com/MauricioTrejo/CollaborationCompetition/blob/master/agent.py) is the py file containing the agent.
 - [model](https://github.com/MauricioTrejo/CollaborationCompetition/blob/master/model.py) is the py file containing the neural network.
-- [weights](https://github.com/MauricioTrejo/CollaborationCompetition/blob/master/weights.pth) contains the weights of the trained agent.
+- [actor weights](https://github.com/MauricioTrejo/CollaborationCompetition/blob/master/checkpoint_actor.pth) contains the weights of the trained actor.
+- [critic weights](https://github.com/MauricioTrejo/CollaborationCompetition/blob/master/checkpoint_critic.pth) contains the weights of the trained critic.
 - [Report](https://github.com/MauricioTrejo/CollaborationCompetition/blob/master/Report.ipynb) contains the report of the agent training.
 - [data/Tennis...](https://github.com/MauricioTrejo/CollaborationCompetition/tree/master/data/Tennis_Windows_x86_64) is Unity's environment.
 - [python/](https://github.com/MauricioTrejo/CollaborationCompetition/tree/master/python) has necessary files for Unity's environment.
