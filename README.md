@@ -6,7 +6,7 @@ Playing tennis with Reinforcement Learning.
 
 1. [Project](#project)
 2. [Requirements](#requirements)
-3. [Installation](#installation)
+3. [Getting started](#get_started)
 4. [Files](#files)
 5. [Acknowledgement](#acknowledgement)
 
@@ -32,12 +32,18 @@ Packages needed for this project:
 
 tensorflow 1.7.1 and [torch 0.4.0](https://pytorch.org/get-started/previous-versions/)
 
-<a name="installation"></a>
-## Installation
+<a name="get_started"></a>
+## Getting started
+
+#### Installation
 
 In order to run this project is important to set a python environment, you can follow the instructions [here](https://github.com/udacity/deep-reinforcement-learning#dependencies). 
   - There are 2 ways to install tensorflow 1.7.1 in your environment, one is with conda and the other is with pip (which is the one we recommend since conda installer has problems with this version of tensorflow)
   - Also, is important to note that the installation of torch has to be from [here](https://pytorch.org/get-started/previous-versions/), otherwise, neither pip nor conda will find the version.
+  
+#### Training and testing the agent
+
+You can watch an untrained agent, train the agent and watch the trained agent in the [report](https://github.com/MauricioTrejo/CollaborationCompetition/blob/master/Report.ipynb) file. However, if you don't want to train the agent, you can always use the [actor weights](https://github.com/MauricioTrejo/CollaborationCompetition/blob/master/checkpoint_actor.pth) and [critic weights](https://github.com/MauricioTrejo/CollaborationCompetition/blob/master/checkpoint_critic.pth).
 
 <a name="files"></a>
 ## Files
